@@ -1,0 +1,388 @@
+/* CSS reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#subhead {
+  text-align: center;
+  font-size: 40;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/* Tablet Viewport: Show mobile class, hide tablet-desktop class */
+.mobile {
+  display: inline-block;
+}
+
+.tablet-desktop {
+  display: none;
+}
+
+/*Selectors for index*/
+
+body.index{
+    background-image: url("https://www.ptcwebdev.com/jreich/ImageRepository/piskel/homerefV2-59FR.gif");  
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    background-size: 600px 600px;
+    background-position-x: center ;
+    background-position-y: 50px;
+    background-color: #321C05;
+    display: inline;
+    text-align: center;
+  }
+
+#tindex{
+  font-size: 40;
+  text-align: center;
+}
+
+
+a.tocM:link { 
+  display:block;
+  color: black;
+  font-size: 30px;
+  text-align:center
+}
+
+a.tocM:visited {
+  display: block;
+  color: #3E3E3D;
+  font-size: 30px;
+  text-align: center;
+}
+
+a.tocM:hover { 
+  display: block;
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+}
+
+a.tocM:active {
+  display: block; 
+  color: brown; 
+  font-size: 30px;
+  text-align: center;
+}
+
+/*
+body.index{
+    background-image: url("https://www.ptcwebdev.com/jreich/ImageRepository/other/homerefv2alt.gif");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 600px 600px;
+    background-position-x: center ;
+    background-position-y: 50px;
+    background-color: #321C05;
+    display: inline;
+
+    text-align: center;
+  }
+*/
+
+
+#tindex{
+  font-size: 40;
+  text-align: center;
+}
+
+
+a.tocM:link { 
+  display:block;
+  color: black;
+  font-size: 30px;
+  text-align:center
+}
+
+a.tocM:visited {
+  display: block;
+  color: #3E3E3D;
+  font-size: 30px;
+  text-align: center;
+}
+
+a.tocM:hover { 
+  display: block;
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+}
+
+a.tocM:active {
+  display: block; 
+  color: brown; 
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* Selctors for WIP.HTML */
+
+body.WIP {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+/*selectors for art */
+
+body.art {
+  background-color: #50504c;
+}
+
+img.artlink{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.title {
+  font-size: 40;
+  text-align: center;
+}
+
+/*Selectors for blender*/
+
+body.blend {
+  background-color: #313130;
+}
+
+
+h1.blend {
+  text-align: center;
+
+  font-size: 32pt;
+}
+
+img.stills {
+  width: 640px;
+  height: 360px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+video.anim.wide {
+  width: 1280px;
+  height: 720px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  -mim: nosniff;
+}
+
+video.anim#square {
+  width: 1024px;
+  height: 720px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video.anim#square2 {
+  width: 800px;
+  height: 800px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Selectors for piskel*/
+
+.pxlheadr {
+  text-align: center;
+  font-size: 55px;
+}
+
+#phead {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+body#piskel {
+  background-color: #3E3E3D;
+}
+
+#pbg {
+  background-color: #646464;
+  min-width: fit-content;
+}
+
+.marginpxl {
+ margin-left: 0%;
+}
+
+p.subhead {
+  text-align: center;
+  font-size: 40px;
+}
+
+.pxlimg {
+  margin-left: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+a.resp:link { 
+  color: black;
+  font-size: 55px;
+}
+
+a.resp:visited {
+  color: #646464;
+  font-size: 55px;
+}
+
+a.resp:hover {
+  color: purple;
+  font-size: 55px;
+}
+
+a.resp:active {
+  color: brown; 
+  font-size: 55px;
+}
+
+a.return, a.home{
+  font-size: 40px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.return:link, a.home:link{ 
+  display:block;
+  color: black;
+  font-size: 40px;
+  text-align:center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.return:visited, a.home:visited {
+  display: block;
+  color: #646464;
+  font-size: 40px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.return:hover, a.home:hover { 
+  display: block;
+  color: purple;
+  font-size: 42px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.return:active, a.home:active {
+  display: block; 
+  color: brown; 
+  font-size: 40px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.homelite{
+  font-size: 40px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.homelite:link{ 
+  display:block;
+  color: black;
+  font-size: 40px;
+  text-align:center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.homelite:visited {
+  display: block;
+  color: #ff0000;
+  font-size: 40px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.homelite:hover { 
+  display: block;
+  color: purple;
+  font-size: 42px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+a.homelite:active {
+  display: block; 
+  color: brown; 
+  font-size: 40px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}

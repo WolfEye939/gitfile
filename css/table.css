@@ -1,0 +1,52 @@
+@font-face {
+    font-family: omegaforce;
+    src: url(fonts/OmegaForceCond.ttf);
+}
+
+@font-face {
+    font-family: starcraft;
+    src: url(fonts/Starcraft.ttf);
+}
+
+@font-face {
+    font-family: MGS;
+    src: url(fonts/metalgear.ttf);
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/Myfont.ttf);
+}
+
+body {
+    background-color: #321C05;
+    color:coral;
+}
+
+
+
+header {
+    text-align: center;
+    font-family: MGS;
+    font-size: 24pt;
+    font-weight: lighter;
+}
+
+.cat {font-weight: bold;}
+
+.ds {
+    font-family: myfont;
+    font-weight: bold;
+    font-size: 60pt;
+    text-align: center;
+}
+
+th, td {border:2.5mm ridge coral;}
+
+table {width: 100%;}
+
+th {
+    font-family: starcraft;
+    height: 70px;
+    font-size: 26pt;
+}

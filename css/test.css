@@ -1,0 +1,103 @@
+
+body {
+    background-color: rgb(33, 109, 122);
+}
+
+        /* List of @font-face starts here... */
+    /* Wolfenstein font */
+@font-face {
+    font-family: wolfenstein;
+    src: url(fonts/Wolfenstein.ttf);
+}
+
+    /* Super mario font */
+@font-face {
+    font-family: smw;
+    src: url(fonts/MarioWorldNBP.ttf);
+    unicode-range: U+0021-201D;
+}
+
+    /* donkey kong font */
+@font-face {
+    font-family: donkey-kong;
+    src: url(fonts/DonkeyKongWorld-DM3E.ttf);
+}
+    /* GameCube Font */
+@font-face {
+    font-family: gamecube;
+    src: url(fonts/GamecubenDualset-L85D.ttf);
+}
+    /* TouHou Font */
+@font-face {
+    font-family: touhou;
+    src: url(fonts/touhou.ttf);
+    unicode-range: U+0040-00AC;
+}
+    /* Amongus font */
+@font-face {
+    font-family: mogus;
+    src: url(fonts/Amogus.ttf);
+}
+    /* sus font */
+@font-face {
+    font-family: sus;
+    src: url(fonts/Myfont.ttf);
+}
+        /* ...And ends here. */
+
+
+/* the Elements using custom fonts list starts here... */ 
+    /* controls GC (gamecube) class */
+.GC {
+    font-family: gamecube;
+}
+    /* controls wf (WolFenstein) class */
+.wf {
+font-family: wolfenstein;
+}
+    /* controls .mario class */
+.mario{
+    font-family: smw;
+    font-size: 28pt;
+}
+    /* controls dkc (Donkey Kong Country) class */
+.dkc {
+    font-family: donkey-kong;
+    font-size: 48PT;
+}
+
+    /* controls touhou class */
+.touhou {
+    font-family: touhou;
+    font-size: 122pt;
+    color: #790e0e;
+}
+
+    /* controls amogus (amongus) class */
+.amogus {
+    font-family: sus;
+}
+/* ...and ends here. */
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+p.touhou {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
