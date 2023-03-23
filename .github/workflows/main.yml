@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.samkirkland.com
         username: John_R
-        password: ${{ secrets.password }}
+        password: ${{ secrets.password}}
