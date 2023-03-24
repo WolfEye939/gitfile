@@ -183,6 +183,41 @@ article:nth-of-type(2){
     height: 50%;
 }
 
+#form {
+    margin-top: 2%;
+    background-color: #f2f2f2;
+    padding: 2%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+/* Style rules for form elements */
+fieldset, input, select, textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
 /* Style rules for footer content */
 footer p {
     font-size: 0.75em;
@@ -279,6 +314,7 @@ footer p a {
     .tel-num {
         font-size: 1.25em;
     }
+
     .map {
         width: 600px;
         height: 450px;
@@ -291,7 +327,6 @@ footer p a {
     margin: 0 auto;
     width: 100%;
     }
-
 
     caption {
         font-size: 1.5em;
@@ -313,13 +348,18 @@ footer p a {
     tr:nth-child(odd) {
         background-color: #ccc;
     }
+
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 
 
 /*Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
-
     /* Desktop Viewport: Style rule for header */
     header {
         width: 25%;
@@ -388,9 +428,23 @@ footer p a {
         clear: left;
     }
 
+    /* Desktop Viewport: Style rules for form elements */
+    form {
+        width: auto;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        grid-column: 1 / span 3;
+    }
 }
 
-/* MEdia Query for Large Desktop Viewports */
+/* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px) {
     #container {
         width: 1920px;
