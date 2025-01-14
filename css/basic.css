@@ -54,7 +54,7 @@ body, header, nav, main, footer, img, h1, h3, ul {
 /*Selectors for index*/
 
 body.index{
-    background-image: url("https://www.ptcwebdev.com/jreich/ImageRepository/piskel/homerefV2-59FR.gif");  
+    background-image: url("../img/homerefV2.gif");  
     background-repeat: no-repeat;
     background-color: transparent;
 
